@@ -59,9 +59,9 @@ export default {
             // console.log(res.data.data)
             // console.log(JSON.stringify(res.data.data))
             window.localStorage.setItem('userInfo', JSON.stringify(res.data.data))
-            this.$router.push({
-              name: 'home'
-            })
+            // this.$router.push({
+            //   name: 'home'
+            // })
             // console.log(window.localStorage.getItem('userInfo'))
           }
         })

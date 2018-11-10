@@ -1,12 +1,3 @@
-<template>
-  <div>用户列表</div>
-</template>
-
-<script>
-export default {
-
-}
-</script>
-<style>
-
-</style>
+<template src="./template.html"></template>
+<script src="./script.js"></script>
+<style src='./style.css'></style>
